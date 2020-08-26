@@ -1,0 +1,10 @@
+---
+applications:
+- name: parksangcheon-egovadmin
+  memory: 512M
+  host: parksangcheon-egovadmin
+  domain: paas-ta.org
+  services:
+  - parksangcheon-egov-db
+  instances: 1
+  disk_quota: 512M
